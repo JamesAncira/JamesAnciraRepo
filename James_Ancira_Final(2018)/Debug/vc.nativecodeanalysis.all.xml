@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\james ancira\source\repos\jamesancirarepo\james_ancira_final(2018)\</FILEPATH>
+      <FILENAME>vec_int_core.h</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'a-&gt;data', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>Vector_Int_Core::Internals::resize</FUNCTION>
+    <DECORATED>?resize@Internals@Vector_Int_Core@@YAXPAUVector@Vector_Int@@@Z</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\james ancira\source\repos\jamesancirarepo\james_ancira_final(2018)\</FILEPATH>
+      <FILENAME>simulated_annealing.h</FILENAME>
+      <LINE>81</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SA::distance</FUNCTION>
+    <DECORATED>?distance@SA@@YANPAUNode@Nodes@@PAUVector@Vector_Int@@H@Z</DECORATED>
+    <FUNCLINE>75</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\james ancira\source\repos\jamesancirarepo\james_ancira_final(2018)\</FILEPATH>
+      <FILENAME>simulated_annealing.h</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SA::distance</FUNCTION>
+    <DECORATED>?distance@SA@@YANPAUNode@Nodes@@PAUVector@Vector_Int@@H@Z</DECORATED>
+    <FUNCLINE>75</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

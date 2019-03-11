@@ -1,0 +1,6 @@
+﻿  main_FWC_demo_Walker.cpp
+c:\users\james ancira\source\repos\jamesancirarepo\fwc\fast_windows_console.h(141): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\fwc\main_fwc_demo_walker.cpp(20): warning C4018: '<': signed/unsigned mismatch
+c:\users\james ancira\source\repos\jamesancirarepo\fwc\main_fwc_demo_walker.cpp(27): warning C4018: '<': signed/unsigned mismatch
+c:\users\james ancira\source\repos\jamesancirarepo\fwc\main_fwc_demo_walker.cpp(128): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  FWC.vcxproj -> C:\Users\James Ancira\source\repos\JamesAnciraRepo\FWC\x64\Debug\FWC.exe

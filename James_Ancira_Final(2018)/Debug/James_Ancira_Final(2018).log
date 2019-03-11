@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\james ancira\source\repos\jamesancirarepo\james_ancira_final(2018)\main.cpp(16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  James_Ancira_Final(2018).vcxproj -> C:\Users\James Ancira\source\repos\JamesAnciraRepo\James_Ancira_Final(2018)\Debug\James_Ancira_Final(2018).exe
