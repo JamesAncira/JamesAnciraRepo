@@ -2,7 +2,6 @@
 #include "vec_int_data.h"
 #include "Windows.h"
 #include <assert.h>
-#include <stdio.h>
 #define TYPE int
 
 namespace Vector_Int_Core

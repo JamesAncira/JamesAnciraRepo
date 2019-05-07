@@ -4,6 +4,7 @@
 #include "vec_int_core.h"
 #include <time.h>
 #include <math.h>
+#include <stdio.h>
 #pragma comment(lib,"SDL2-2.0.4\\lib\\x86\\SDL2.lib")
 #pragma comment(lib,"SDL2-2.0.4\\lib\\x86\\SDL2main.lib")
 

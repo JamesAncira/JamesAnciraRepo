@@ -1,5 +1,4 @@
 #include "simulated_annealing.h"
-#include <time.h>
 
 /*TO DO LIST
 array_size
