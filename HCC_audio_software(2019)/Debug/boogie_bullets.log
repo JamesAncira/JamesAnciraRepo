@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(180): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(241): warning C4018: '>=': signed/unsigned mismatch
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(373): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(376): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(387): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(390): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(414): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(417): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(427): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\boogie_bullets\main.cpp(440): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  boogie_bullets.vcxproj -> C:\Users\James Ancira\source\repos\boogie_bullets\Debug\boogie_bullets.exe

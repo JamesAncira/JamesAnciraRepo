@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boogie_bullets", "boogie_bullets.vcxproj", "{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Debug|x64.ActiveCfg = Debug|x64
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Debug|x64.Build.0 = Debug|x64
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Debug|x86.Build.0 = Debug|Win32
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Release|x64.ActiveCfg = Release|x64
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Release|x64.Build.0 = Release|x64
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Release|x86.ActiveCfg = Release|Win32
+		{3A6337A2-7F4C-4C5F-9D26-43ECCF624E03}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7218A265-52D7-40AC-8DCE-D070B0FF1E27}
+	EndGlobalSection
+EndGlobal
