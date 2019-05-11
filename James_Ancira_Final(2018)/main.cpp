@@ -1,13 +1,5 @@
 #include "simulated_annealing.h"
 
-/*TO DO LIST
-array_size
-v.n_node
-v.array_size
-print these out
-debug it
-*/
-
 #pragma warning(disable:4996)
 int main(int argc, char **argv)
 {
