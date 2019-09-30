@@ -1,12 +1,13 @@
 ﻿  main.cpp
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(180): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(241): warning C4018: '>=': signed/unsigned mismatch
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(373): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(376): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(387): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(390): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(414): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(417): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(427): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-c:\users\james ancira\source\repos\boogie_bullets\main.cpp(440): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  boogie_bullets.vcxproj -> C:\Users\James Ancira\source\repos\boogie_bullets\Debug\boogie_bullets.exe
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(123): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'Events'
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(190): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(251): warning C4018: '>=': signed/unsigned mismatch
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(378): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(381): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(392): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(395): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(419): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(422): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(432): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\james ancira\source\repos\jamesancirarepo\hcc_audio_software(2019)\main.cpp(445): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  boogie_bullets.vcxproj -> C:\Users\James Ancira\source\repos\JamesAnciraRepo\HCC_audio_software(2019)\Debug\boogie_bullets.exe

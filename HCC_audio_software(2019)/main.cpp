@@ -98,12 +98,10 @@ int main(int argc, char **argv)
 			fscanf(f, "%d", &array_size_file);
 			array_data_file = (int*)malloc(array_size_file * sizeof(int));
 			array_size_struct_events = array_size_file;
+
 			for (int i = 0; i < array_size_file; i++)
 			{
 				fscanf(f, "%d", &array_data_file[i]);
-
-				//event type & n_events
-				array_struct_events[i].event_type[array_struct_events[i].n_events++] = 1;
 			}
 		}
 		printf("songname: %s\n", songname);
@@ -115,6 +113,9 @@ int main(int argc, char **argv)
 		printf("File not found.");
 	}
 	fclose(f);
+
+	//event type look up table
+	array_struct_event[index].event_type[array_struct_event[index].n_events++] = 1;
 
 	//init SDL_Audio
 	SDL_Init(SDL_INIT_AUDIO);

@@ -3,8 +3,6 @@
 	audio_buf is filled with a pointer to an allocated buffer containing the audio data
 	audio_len is filled with the length of that audio buffer in bytes
 
-	audio_len is 35k
-
 	*audio_buf[audio_len] <-contains audio data
 
 	int array_size_short = audio_len; <-size of short array?
