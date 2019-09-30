@@ -12,11 +12,11 @@ using namespace std;
 #pragma comment(lib, "SDL2-2.0.8\\lib\\x86\\SDL2_image.lib")
 
 //#define SPAWN_CONSOLE
-#ifdef SPAWN_CONSOLE
-#pragma comment(linker, "/subsystem:console")
-#else
-#pragma comment(linker, "/subsystem:windows")
-#endif
+//#ifdef SPAWN_CONSOLE
+//#pragma comment(linker, "/subsystem:console")
+//#else
+//#pragma comment(linker, "/subsystem:windows")
+//#endif
 
 struct Vec2D
 {
@@ -51,7 +51,7 @@ struct Button
 	int h;
 };
 
-void HandleEvents(Button *rect, SDL_Event event)
+void HandleEvents(Button *button, SDL_Event event)
 {
 	//get mouse position
 	int mouse_pos_x = 0;
@@ -65,9 +65,9 @@ void HandleEvents(Button *rect, SDL_Event event)
 		if (event.button.button == SDL_BUTTON_LEFT)
 		{
 			//If the mouse is over the button
-			if ((mouse_pos_x > rect->x) && (mouse_pos_x < rect->x + rect->w) && (mouse_pos_y > rect->y) && (mouse_pos_y < rect->y + rect->h))
+			if ((mouse_pos_x > button->x) && (mouse_pos_x < button->x + button->w) && (mouse_pos_y > button->y) && (mouse_pos_y < button->y + button->h))
 			{
-				printf("HandleEvents called Press");
+				printf("HandleEvents called Press\n");
 			}
 		}
 	}
@@ -79,9 +79,9 @@ void HandleEvents(Button *rect, SDL_Event event)
 		if (event.button.button == SDL_BUTTON_LEFT)
 		{
 			//If the mouse is over the button
-			if ((mouse_pos_x > rect->x) && (mouse_pos_x < rect->x + rect->w) && (mouse_pos_y > rect->y) && (mouse_pos_y < rect->y + rect->h))
+			if ((mouse_pos_x > button->x) && (mouse_pos_x < button->x + button->w) && (mouse_pos_y > button->y) && (mouse_pos_y < button->y + button->h))
 			{
-				printf("HandleEvents called Press");
+				printf("HandleEvents called Release\n");
 			}
 		}
 	}
@@ -116,8 +116,12 @@ int main(int argc, char** argv)
 	Button button;
 	button.w = 10;
 	button.h = 10;
-	button.x = 30;
-	button.y = 30;
+	button.x = 50;
+	button.y = 50;
+	button.rect.w = button.w;
+	button.rect.h = button.h;
+	button.rect.x = button.x;
+	button.rect.y = button.y;
 
 	int mouse_x = 0;
 	int mouse_y = 0;
@@ -130,14 +134,14 @@ int main(int argc, char** argv)
 	for (;;)
 	{
 		//get mouse position
-		int mouse_pos_x = 0;
+		/*int mouse_pos_x = 0;
 		int mouse_pos_y = 0;
-		SDL_GetMouseState(&mouse_pos_x, &mouse_pos_y);
+		SDL_GetMouseState(&mouse_x, &mouse_y);*/
 
 		SDL_Event event;
 		while (SDL_PollEvent(&event) == 1)
 		{
-			SDL_GetMouseState(&mouse_x, &mouse_y);
+			//HandleEvents(&button, event);
 			if (event.type == SDL_QUIT) exit(0);
 			else if (event.type == SDL_KEYDOWN)
 			{
@@ -159,6 +163,9 @@ int main(int argc, char** argv)
 
 		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
 		SDL_RenderClear(renderer);
+
+		SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+		SDL_RenderFillRect(renderer, &button.rect);
 
 		HandleEvents(&button, event);
 
